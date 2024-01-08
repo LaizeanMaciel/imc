@@ -18,7 +18,7 @@ function imc () {
        var result = ''
 
        if (valorIMC < 18.5) {
-            result = 'abaixo do peso'
+            result = 'abaixo do peso' 
        } else if (valorIMC < 25) {
         result = 'com peso ideal.'
        } else if (valorIMC < 30) {
